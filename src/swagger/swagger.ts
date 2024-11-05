@@ -16,7 +16,7 @@ const swaggerOptions: Options = {
         ]
     },
     apis: [
-        "./src/routes/productRouter.ts",
+        "./src/routes/productRoutes.ts",
     ]
 };
 
