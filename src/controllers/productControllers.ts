@@ -30,6 +30,10 @@ export const getProductByID = async (req: Request, res: Response) => {
 
             })
         }
+    } catch (error) {
+        res.status(500).json({
+            message: "Errror al obterner el producto."
+        });
     }
 }
 
